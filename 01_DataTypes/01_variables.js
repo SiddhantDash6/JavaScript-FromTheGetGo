@@ -17,8 +17,23 @@ let valueInInt3 = Number(score3);
 
 let isLoggedIn = 1
 let isBooleanLoggedIn = Boolean(isLoggedIn)
-console.log(isBooleanLoggedIn);
+// console.log(isBooleanLoggedIn);
 
 // 1 => true, 0 => false
 // "" => false
 // "sidhanta" => true
+
+// ********************************** Operations ***************************************
+
+// console.log(1+"2");  // 12
+// console.log("1"+2);  // 12
+// console.log("1"+"2");// 12
+// console.log("1"+2+2);// 122
+// console.log(1+2+"2");// 32
+
+// console.log(true);  //  true
+// console.log(+true); //  1 (Conerts)
+// // console.log(true+); //  Error
+
+// console.log(""); // Empty String
+// console.log(+""); // 0 (Converts)
